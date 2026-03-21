@@ -1,6 +1,6 @@
 {
   "name": "@nulladdict/vite-plugin-polyfill-detection",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Automatic polyfill detection using swc and core-js",
   "keywords": [
     "core-js",
