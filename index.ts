@@ -29,7 +29,7 @@ async function getCoreJsVersion(): Promise<string> {
   return coreJsVersionCache;
 }
 
-async function detectPolyfills(
+export async function detectPolyfills(
   code: string,
   targets: Options["targets"],
   polyfills: Set<string>,
