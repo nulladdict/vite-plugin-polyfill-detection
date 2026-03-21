@@ -26,6 +26,9 @@
   ],
   "type": "module",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsgo",
     "fmt": "oxfmt",
