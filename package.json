@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-polyfill-detection",
+  "name": "@nulladdict/vite-plugin-polyfill-detection",
   "version": "0.0.1",
   "description": "Automatic polyfill detection using swc and core-js",
   "keywords": [
@@ -28,7 +28,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsgo",
-    "fmt": "oxfmt"
+    "fmt": "oxfmt",
+    "test": "node --test test/*.test.ts"
   },
   "dependencies": {
     "@swc/core": "^1.15.18",
