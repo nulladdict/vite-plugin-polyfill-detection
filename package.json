@@ -32,16 +32,16 @@
   },
   "dependencies": {
     "@swc/core": "^1.15.18",
-    "core-js": "^3.49.0",
-    "regenerator-runtime": "^0.14.1"
+    "core-js": "^3.49.0"
   },
   "devDependencies": {
+    "@types/node": "^24.12.0",
     "@typescript/native-preview": "^7.0.0-dev.20260321.1",
     "@vitejs/plugin-legacy": "^8.0.0",
     "oxfmt": "^0.41.0",
     "vite": "^8.0.1"
   },
   "peerDependencies": {
-    "vite": "^7.0.0 || ^8.0.0"
+    "vite": "^8.0.0"
   }
 }
